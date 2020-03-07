@@ -1,0 +1,8 @@
+// Universal styles
+@import './reset.scss';
+@import './variables.scss';
+@import './universal.scss';
+
+// Component Styles
+@import '../components/Layout/layout.imports.scss';
+@import '../components/MemberCard/member-card.imports.scss'

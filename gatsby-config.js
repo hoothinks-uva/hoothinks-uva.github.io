@@ -5,5 +5,21 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: 'HooThinks Consulting',
+    description: 'A UVA CIO'
+  },
+  plugins: [
+    'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          'Raleway',
+          'Open Sans'
+        ],
+        display: 'swap'
+      }
+    }
+  ]
 }
