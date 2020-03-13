@@ -6,7 +6,5 @@ export default () => (
   <Layout>
     <h1>HooThinks Consulting</h1>
     <p>Built with React, SASS, and Gatsby</p>
-    <HomeCard>
-    </HomeCard>
   </Layout>
 ) 
