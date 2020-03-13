@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+.home-card {
+  height: 190px;
+  width: 80%;
+  font-family: 'Open Sans';
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+    border: 1px solid;
+}
+.home-card__header{
+  border: 1px solid;
+  height: 50%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px;
+  font-family: 'Open Sans';
+}
+.home-card__title{
+  border: 1px solid;
+  height: 60%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans';
+}
+.home-card__img-container {
+  height: 100%;
+  width: 100px;
+  margin: 10px;
+}
+
+.home-card__img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.member-card__content {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+.member-card__title {
+  font-size: 22px;
+  margin-bottom: -3px;
+  color: #232322;
+}
+
+.member-card__text {
+  color: #7e7e7e;
+  line-height: 150%;
+  font-size: 14px;
+}
+
+.member-card__button {
+  font-size: 14px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: rgb(226, 43, 11);
+  border-radius: 4px;
+  position: relative;
+  top: 30px;
+  text-decoration: none;
+}
+
+.member-card__button--outline {
+  color: rgb(226, 43, 11);
+  background-color: transparent;
+  border: 2px solid rgb(226, 43, 11);
+  border-radius: 4px;
+  padding: 8px 18px;
+}
+
+.card__button--clear {
+  background-color: transparent;
+  font-weight: 600;
+  color: rgb(226, 43, 11);
+  text-decoration: none;
+}
