@@ -1,10 +1,21 @@
 import React from "react"
 import Layout from "../components/Layout/";
-import MemberCard from "../components/MemberCard/MemberCard";
 import HomeCard from "../components/HomeCard/HomeCard"
+
+import BusinessPlanSVG from '../assets/images/business_plan.svg';
+import DataProcessingSVG from '../assets/images/data_processing.svg';
+import PitchingSVG from '../assets/images/pitching.svg';
+
 export default () => (
   <Layout>
-    <h1>HooThinks Consulting</h1>
-    <p>Built with React, SASS, and Gatsby</p>
+    <div className="home">
+      <h1>HooThinks Consulting</h1>
+      <p>Built with React, SASS, and Gatsby</p>
+      <div className="container">
+        <HomeCard graphic={BusinessPlanSVG} imagePosition="left"/>
+        <HomeCard graphic={DataProcessingSVG} imagePosition="right"/>
+        <HomeCard graphic={PitchingSVG} imagePosition="left"/>
+      </div>
+    </div>
   </Layout>
 ) 
