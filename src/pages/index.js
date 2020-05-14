@@ -9,8 +9,7 @@ import PitchingSVG from '../assets/images/pitching.svg';
 export default () => (
   <Layout>
     <div className="home">
-      <h1>HooThinks Consulting</h1>
-      <p>Built with React, SASS, and Gatsby</p>
+      {/* Banner here */}
       <div className="container">
         <HomeCard graphic={BusinessPlanSVG} imagePosition="left"/>
         <HomeCard graphic={DataProcessingSVG} imagePosition="right"/>
