@@ -1,16 +1,10 @@
 import React from 'react'
 
-const HomeCard = ({ graphic, imagePosition }) => {
+const HomeCard = ({ graphic, imagePosition, children, title }) => {
     const content = (
         <div className="home-card__content">
-            <div className="home-card__title">Mission Statement</div>
-            <p className="home-card__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Nostrum nobis architecto quas ratione ad animi laudantium, 
-                neque rem consequuntur suscipit saepe natus impedit. Aut minima eos 
-                quibusdam consequatur quidem vitae suscipit modi magni tempora rem, 
-                voluptatibus quam dolorem incidunt aspernatur!
-            </p>
+            <div className="home-card__title">{title}</div>
+            <p className="home-card__text">{children}</p>
         </div>
     )
 
