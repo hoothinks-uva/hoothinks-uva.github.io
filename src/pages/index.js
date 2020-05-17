@@ -12,27 +12,27 @@ export default () => (
       {/* Banner here */}
       <div className="container">
         <HomeCard title="Business Plan" graphic={BusinessPlanSVG} imagePosition="left">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Nostrum nobis architecto quas ratione ad animi laudantium, 
-          neque rem consequuntur suscipit saepe natus impedit. Aut minima eos 
-          quibusdam consequatur quidem vitae suscipit modi magni tempora rem, 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Nostrum nobis architecto quas ratione ad animi laudantium,
+          neque rem consequuntur suscipit saepe natus impedit. Aut minima eos
+          quibusdam consequatur quidem vitae suscipit modi magni tempora rem,
           voluptatibus quam dolorem incidunt aspernatur!
         </HomeCard>
         <HomeCard title="Data Analytics" graphic={DataProcessingSVG} imagePosition="right">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Nostrum nobis architecto quas ratione ad animi laudantium, 
-          neque rem consequuntur suscipit saepe natus impedit. Aut minima eos 
-          quibusdam consequatur quidem vitae suscipit modi magni tempora rem, 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Nostrum nobis architecto quas ratione ad animi laudantium,
+          neque rem consequuntur suscipit saepe natus impedit. Aut minima eos
+          quibusdam consequatur quidem vitae suscipit modi magni tempora rem,
           voluptatibus quam dolorem incidunt aspernatur!
         </HomeCard>
         <HomeCard title="Presentations" graphic={PitchingSVG} imagePosition="left">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Nostrum nobis architecto quas ratione ad animi laudantium, 
-          neque rem consequuntur suscipit saepe natus impedit. Aut minima eos 
-          quibusdam consequatur quidem vitae suscipit modi magni tempora rem, 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Nostrum nobis architecto quas ratione ad animi laudantium,
+          neque rem consequuntur suscipit saepe natus impedit. Aut minima eos
+          quibusdam consequatur quidem vitae suscipit modi magni tempora rem,
           voluptatibus quam dolorem incidunt aspernatur!
         </HomeCard>
       </div>
     </div>
   </Layout>
-) 
+)
