@@ -10,32 +10,28 @@ import Logo from '../assets/images/logo.png';
 export default () => (
   <Layout>
     <div className="home">
-      {/* Banner here */}
       <div className="home-card__banner-container">
         <img src={Logo} className="home-card__logo" />
       </div>
-      {/*
       <div className="home-card__navbar">
         <NavBar></NavBar>
       </div>
-      */
-      }
       <div className="container">
-        <HomeCard title="Business Plan" graphic={BusinessPlanSVG} imagePosition="left">
+        <HomeCard title="Business Plan" graphic={BusinessPlanSVG} sectionId={1}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nostrum nobis architecto quas ratione ad animi laudantium,
           neque rem consequuntur suscipit saepe natus impedit. Aut minima eos
           quibusdam consequatur quidem vitae suscipit modi magni tempora rem,
           voluptatibus quam dolorem incidunt aspernatur!
         </HomeCard>
-        <HomeCard title="Data Analytics" graphic={DataProcessingSVG} imagePosition="right">
+        <HomeCard title="Data Analytics" graphic={DataProcessingSVG} sectionId={2}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nostrum nobis architecto quas ratione ad animi laudantium,
           neque rem consequuntur suscipit saepe natus impedit. Aut minima eos
           quibusdam consequatur quidem vitae suscipit modi magni tempora rem,
           voluptatibus quam dolorem incidunt aspernatur!
         </HomeCard>
-        <HomeCard title="Presentations" graphic={PitchingSVG} imagePosition="left">
+        <HomeCard title="Presentations" graphic={PitchingSVG} sectionId={3}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nostrum nobis architecto quas ratione ad animi laudantium,
           neque rem consequuntur suscipit saepe natus impedit. Aut minima eos
