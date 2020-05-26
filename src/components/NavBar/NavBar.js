@@ -1,4 +1,5 @@
 import React from 'react'
+import scrollToComponent from 'react-scroll-to-component';
 
 const NavBar = () => (
     <div className="nav-bar">
