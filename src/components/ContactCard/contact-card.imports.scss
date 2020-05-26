@@ -8,6 +8,8 @@
   min-height: 200px;
   background-color: #62a9d9;
   flex-direction: row;
+  padding-left: 10%;
+  padding-right: 10%;
   align-items: center;
 }
 
@@ -18,14 +20,12 @@
   font-family: $title-font;
   color: white;
   margin-bottom: 15px;
-  margin-left: 20%;
 }
 
 .contact-card__img-container {
-  height: 40%;
+  height: 50%;
   object-fit: contain;
-  width: 40%;
-  margin-left: -5%;
+  width: 50%;
 }
 
 .contact-card__icon {
@@ -48,11 +48,11 @@
 .contact-card__content {
   display: flex;
   flex-direction: column;
+  width:50%;
   align-self: center;
   height: 100%;
   // margin-left: 5%;
   margin-top: 5%;
-  padding-left: 2%;
   margin-bottom: 5%;
 }
 
@@ -63,7 +63,7 @@
   align-items: center;
   flex: 2;
   height: 100%;
-  margin-left: 40%;
+  margin-left: 20%;
   margin-top: 2%;
   margin-bottom: 2%;
 }
