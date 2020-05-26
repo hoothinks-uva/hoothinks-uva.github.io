@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout/";
 import HomeCard from "../components/HomeCard/HomeCard"
+import ContactCard from "../components/ContactCard/ContactCard"
 import NavBar from "../components/NavBar/NavBar"
 import BusinessPlanSVG from '../assets/images/business_plan.svg';
 import DataProcessingSVG from '../assets/images/data_processing.svg';
@@ -42,6 +43,7 @@ export default () => (
           voluptatibus quam dolorem incidunt aspernatur!
         </HomeCard>
       </div>
+      <ContactCard></ContactCard>
     </div>
   </Layout>
 )

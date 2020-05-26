@@ -8,8 +8,7 @@
   min-height: 200px;
   background-color: #62a9d9;
   flex-direction: row;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 5% 10% 5% 10%;
   align-items: center;
 }
 
@@ -19,7 +18,7 @@
   font-size: $header-size;
   font-family: $title-font;
   color: white;
-  margin-bottom: 15px;
+  margin-bottom: 7%;
 }
 
 .contact-card__img-container {
@@ -52,8 +51,6 @@
   align-self: center;
   height: 100%;
   // margin-left: 5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
 }
 
 .contact-card__info {
