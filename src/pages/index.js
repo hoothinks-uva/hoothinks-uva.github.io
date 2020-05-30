@@ -16,9 +16,9 @@ export default () => (
       <div className="home-card__banner-container">
         <img src={Logo} className="home-card__logo" />
       </div>
-      <div className="home-card__navbar">
+      {/*/<div className="home-card__navbar">
         <NavBar></NavBar>
-      </div>
+      </div>*/}
       <div className="container">
         <Fade duration={1500} delay={200}>
           <HomeCard title="Business Plan" graphic={BusinessPlanSVG} sectionId={1}>
