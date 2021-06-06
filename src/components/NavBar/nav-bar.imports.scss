@@ -6,34 +6,34 @@
   font-family: 'Open Sans';
   display: flex;
   flex-direction: row;
-  margin-top: 2%;
   height: 100%;
+  width: 100%;
+  justify-content: space-between;
 
 }
 .nav-bar__container{
-  padding-top: .7%;
-  padding-bottom: .7%;
-  width: 80%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
   font-size: 130%;
-  background-image: linear-gradient(to right,#5e2e56,#cadeed);
+  width: 40%;
   color: white;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  height:max-content;
   justify-content: center;
   font-family: 'Open Sans';
-  margin: 10px;
 }
 
 .nav-bar__container:hover{
-  padding-top: .7%;
-  padding-bottom: .7%;
-  width: 80%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
   font-size: 130%;
-  background-image: linear-gradient(to right,#72a7c0,#cadeed);
+  width: 40%;
   color: white;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  height:max-content;
   justify-content: center;
   font-family: 'Open Sans';
-  margin: 10px;
+  cursor: pointer;
 }
