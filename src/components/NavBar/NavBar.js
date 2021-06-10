@@ -7,10 +7,10 @@ const NavBar = () => (
             Contact Us
         </div>
         <div className="nav-bar__container" style={{ borderRight: ".5px solid white" }}>
-            Our Team
+            Services
         </div>
         <div className="nav-bar__container">
-            Our Work
+            Portfolio
         </div>
     </div >
 )

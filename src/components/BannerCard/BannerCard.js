@@ -14,8 +14,7 @@ const BannerCard = () => {
                             Hoothinks
                         </div>
                         <div className={"banner-subtitle"}>
-                        To provide HooThinks members with real world consulting experience through projects that positively impact the University of Virginia and the Charlottesville community 
-                        </div>
+                        Using data driven solutions to address university challenges                    </div>
                     </div>
                 </div>
             </div>
