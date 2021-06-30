@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+.serviceinfo-card {
+  width: 100vw;
+  display: flex;
+  @media screen and (min-width: 768px) {
+    height: fit-content;
+  }
+  flex-direction: column;
+
+}
+
+.serviceinfo-card__bg--1 {
+  background-color: #f1f1f1;
+  // background-color: $blue1;
+  // color: white;
+}
+
+.home-button{
+  background:url(../assets/images/logo.png) no-repeat;
+  background-size: cover;
+  cursor:pointer;
+  border:none;
+  width:80px;
+  height:80px;
+  margin: 2%;
+}
+
+.serviceinfo-banner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: fit-content;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.serviceinfo-card__header {
+  display: flex;
+  font-size: 40px;
+  font-family: $title-font;
+  color: rgb(28, 77, 105);
+}
+
+.serviceinfo-card__title {
+  display: flex;
+  font-size: 35px;
+  font-family: $title-font;
+  color: rgb(19, 66, 90);
+}
+
+.serviceinfo-container{
+  flex-direction: row;
+  margin-right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  @media screen and (max-width: 768px) {
+    display: block;
+    min-height: 400px;
+  }
+}
+
+.serviceinfo-card__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  justify-content: center;
+  align-content: center;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  flex-grow: 1;
+}
+
+.serviceinfo-card__innercontent {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2%;
+}
+
+.serviceinfo-card__listcontent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+.serviceinfo-card__listtitle{
+  display: flex;
+  font-size: 28px;
+  font-family: $title-font;
+  color: rgb(39, 41, 43);
+  margin-bottom: 7px;
+}
+
+ol {
+  list-style-type: decimal
+}

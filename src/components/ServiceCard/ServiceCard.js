@@ -1,5 +1,6 @@
 import React from 'react'
 import BusinessPlanSVG from '../../assets/images/pitching.svg';
+import Link from "gatsby-link"
 
 const ServiceCard = () => {
     return (
@@ -34,13 +35,13 @@ const ServiceCard = () => {
                             </p>
                     </div>
                     <div class="button-cta">
-                    <a href="#" class="cta">
+                    <Link to="/services" class="cta">
                         <span>See more</span>
                         <svg width="13px" height="10px" viewBox="0 0 13 10">
                             <path d="M1,5 L11,5"></path>
                             <polyline points="8 1 12 5 8 9"></polyline>
                         </svg>
-                    </a>
+                    </Link>
                     </div>
                 </div>
                 

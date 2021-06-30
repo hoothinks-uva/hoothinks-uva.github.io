@@ -1,18 +1,28 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade'
 
-const HomeCard = ({ graphic, imagePosition, children, title, sectionId }) => {
+import Layout from "../Layout";
+import BannerCard from "../BannerCard"
+
+import ContactCard from "../ContactCard"
+import MissionCard from "../MissionCard";
+import ServiceCard from "../ServiceCard";
+const HomeCard = () => {
     return (
-        <div className={`home-card home-card__bg--${sectionId}`}>
-            <div className="home-card__container">
-                <div className="home-card__img-container">
-                    <img src={graphic} className="home-card__img" />
-                </div>
-                <div className="home-card__content">
-                    <div className="home-card__title">{title}</div>
-                    <div><p className="home-card__text">{children}</p></div>
-                </div>
-            </div>
+        <Layout>
+        <div className="home">
+          <BannerCard></BannerCard>
+          <div className="container">
+            <Fade duration={1500} delay={200}>
+              <MissionCard></MissionCard>
+            </Fade>
+            <Fade duration={1500} delay={200}>
+              <ServiceCard></ServiceCard>
+            </Fade>
+          </div>
+          <ContactCard></ContactCard>
         </div>
+      </Layout>
     )
 }
 
