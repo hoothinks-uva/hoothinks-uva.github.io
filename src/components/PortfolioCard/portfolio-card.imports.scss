@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.service-card {
+.portfolio-card {
   width: 100vw;
   display: flex;
   align-items: center;
@@ -13,7 +13,7 @@
   }
 }
 
-.mission-card__container {
+.portfolio-card__container {
   flex-direction: row;
   margin-right: 10%;
   margin-left: 10%;
@@ -26,34 +26,34 @@
   }
 }
 
-.mission-card__img-container {
-  flex: 2;
+.portfolio-card__img-container {
+  width: 50%;
 }
 
-.mission-card__img {
+.portfolio-card__img {
   height: 100%;
   object-fit: contain;
   width: 100%;
 }
 
-.mission-card__logo {
+.portfolio-card__logo {
   height: 10%;
   object-fit: contain;
   width: 10%;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
-.service-card__bg--1 {
-  background-color: #deecf3;
+.portfolio-card__bg--1 {
+  background-color: #f8f8f8;
   // background-color: $blue1;
   // color: white;
 }
 
-.mission-card__content {
+.portfolio-card__content {
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 50%;
+  width: 30%;
   justify-content: center;
   align-content: center;
   margin-left: 10%;
@@ -61,7 +61,7 @@
   margin-bottom: 10%;
 }
 
-.service-card__title-1 {
+.portfolio-card__title {
   display: flex;
   font-size: $title-size;
   font-family: $title-font;
@@ -69,7 +69,7 @@
   margin-bottom: 20px;
 }
 
-.service-card__title-2 {
+.portfolio-card__text {
   color: #333;
   line-height: 220%;
   font-size: $text-size;

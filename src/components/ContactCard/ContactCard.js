@@ -10,28 +10,29 @@ const ContactCard = () => {
         threshold: 0,
     });
     return (
-    <div ref = {ref} id = "contact" href= "contact" className="contact-card">
-        <div className="contact-card__content">
-            <Bounce spy = {inView}>
-            <div className="contact-card__title">
-                Get in touch
+        <div ref={ref} id="contact" href="contact" className="contact-card">
+            <div className="contact-card__content">
+                <Bounce spy={inView}>
+                    <div className="contact-card__title">
+                        Get in touch
             </div>
-            </Bounce>
-            <div className="contact-card__info">
-                <img className="contact-card__icon" src={phone} ></img>
-                <div class="contact-card__info-text">
-                    703-753-1234
+                </Bounce>
+                <div className="contact-card__info">
+                    <img className="contact-card__icon" src={phone} ></img>
+                    <div class="contact-card__info-text">
+                        703-753-1234
+                </div>
+                </div>
+                <div className="contact-card__info">
+                    <img className="contact-card__icon" src={email} ></img>
+                    <div class="contact-card__info-text">
+                        HT@gmail.com
+                </div>
                 </div>
             </div>
-            <div className="contact-card__info">
-                <img className="contact-card__icon" src={email} ></img>
-                <div class="contact-card__info-text">
-                    HT@gmail.com
-                </div>
-            </div>
+            <img class="contact-card__img-container" src={contact_img}></img>
         </div>
-        <img class="contact-card__img-container" src={contact_img}></img>
-    </div>
-)}
+    )
+}
 
 export default ContactCard

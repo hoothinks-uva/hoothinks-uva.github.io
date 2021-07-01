@@ -5,9 +5,11 @@
 .serviceinfo-card {
   width: 100vw;
   display: flex;
+
   @media screen and (min-width: 768px) {
     height: fit-content;
   }
+
   flex-direction: column;
 
 }
@@ -18,13 +20,13 @@
   // color: white;
 }
 
-.home-button{
-  background:url(../assets/images/logo.png) no-repeat;
+.home-button {
+  background: url(../assets/images/logo.png) no-repeat;
   background-size: cover;
-  cursor:pointer;
-  border:none;
-  width:80px;
-  height:80px;
+  cursor: pointer;
+  border: none;
+  width: 80px;
+  height: 80px;
   margin: 2%;
 }
 
@@ -51,17 +53,26 @@
   color: rgb(19, 66, 90);
 }
 
-.serviceinfo-container{
+.serviceinfo-container {
   flex-direction: row;
   margin-right: 10%;
+  margin-top: 2%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex: 1;
+
   @media screen and (max-width: 768px) {
     display: block;
     min-height: 400px;
   }
+}
+
+.serviceinfo-nav {
+  height: fit-content;
+  width: 70%;
+  display: flex;
+  color: rgb(19, 66, 90);
 }
 
 .serviceinfo-card__content {
@@ -102,7 +113,7 @@
   margin-bottom: 10%;
 }
 
-.serviceinfo-card__listtitle{
+.serviceinfo-card__listtitle {
   display: flex;
   font-size: 28px;
   font-family: $title-font;
