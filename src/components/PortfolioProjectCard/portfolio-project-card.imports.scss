@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+.portfolio-project-card {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10%;
+  padding-left: 10%;
+
+  @media screen and (min-width: 768px) {
+    height: fit-content;
+  }
+}
+
+.portfolio-project-card__container {
+  flex-direction: row;
+  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  flex: 1;
+
+  // height: 100%;
+  @media screen and (max-width: 768px) {
+    display: block;
+    min-height: 400px;
+  }
+}
+
+.portfolio-project-card__img-container {
+  flex: 2;
+}
+
+.portfolio-project-card__img {
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.portfolio-project-card__banner-container {
+  flex-direction: row;
+  width: 100%;
+  padding-top: 5%;
+  background-image: url(../assets/images/landing_page_banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.portfolio-project-card__logo {
+  height: 10%;
+  object-fit: contain;
+  width: 10%;
+  margin-left: 5%;
+}
+
+.portfolio-project-card__bg--1 {
+  background-color: #aad2f7;
+  // background-color: $blue1;
+  // color: white;
+}
+
+.portfolio-project-card__bg--2 {
+  background-color: #fff;
+}
+
+.portfolio-project-card__bg--3 {
+  background-color: #efefef;
+}
+
+.portfolio-project-card__navbar {
+  flex-direction: row;
+  width: 100%;
+  max-height: 50px;
+}
+
+.portfolio-project-card__content {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+  margin-left: 10%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.portfolio-project-card__title {
+  display: flex;
+  font-size: $title-size;
+  font-family: $title-font;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.portfolio-project-card__text {
+  color: #7e7e7e;
+  line-height: 220%;
+  font-size: $text-size;
+  font-family: $body-font;
+  word-wrap: break-word;
+}
+
+
+
+.portfolio-project-card__skill {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 1px #67c5ff;
+  background: white;
+  border-radius: 6px;
+  transition: .4s;
+  margin-right: 10px;
+}
+
+.portfolio-project-card__skill:hover {
+  background: #67c5ff;
+  color: white;
+}
