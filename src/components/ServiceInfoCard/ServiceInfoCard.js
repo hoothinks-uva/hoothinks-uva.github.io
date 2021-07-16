@@ -10,19 +10,21 @@ const ServiceInfoCard = () => {
     return (
         <Layout>
             <div className={"serviceinfo-card serviceinfo-card__bg--1"}>
-                <div className={"serviceinfo-banner"}>
-                    <div className={"serviceinfo-banner"}>
-                        <Link to="/" class="home-button"></Link>
-                        <div className="serviceinfo-card__header">
-                            Our Services
+                <div style={{ position: "fixed", width: "100%", zIndex: "100", marginBottom: "5%" }}>
+                    <div className={"serviceinfo-banner"} style={{ borderBottom: "1px solid #e8e8e8" }}>
+                        <div className={"serviceinfo-banner"}>
+                            <Link to="/" class="home-button"></Link>
+                            <div className="serviceinfo-card__header">
+                                Our Services
                         </div>
-                    </div>
-                    <div className={"serviceinfo-nav"}>
-                        <NavBar color="rgb(28, 77, 105)"></NavBar>
+                        </div>
+                        <div className={"serviceinfo-nav"}>
+                            <NavBar color="rgb(28, 77, 105)"></NavBar>
+                        </div>
                     </div>
                 </div>
 
-                <div className="serviceinfo-container">
+                <div className="serviceinfo-container" style={{ paddingTop: "10%" }}>
                     <div className="serviceinfo-card__content">
                         <div className="serviceinfo-card__title">
                             1. The HooThinks Data Collection Framework

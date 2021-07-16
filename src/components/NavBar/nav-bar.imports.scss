@@ -10,8 +10,11 @@
   width: 100%;
   justify-content: space-between;
 
+
+
 }
-.nav-bar__container{
+
+.nav-bar__container {
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   font-size: 130%;
@@ -19,11 +22,11 @@
   color: white;
   display: flex;
   align-items: center;
-  height:max-content;
+  height: max-content;
   justify-content: center;
   font-family: 'Open Sans';
 }
 
-.nav-bar__container:hover{
+.nav-bar__container:hover {
   cursor: pointer;
 }
