@@ -12,11 +12,12 @@
   align-items: center;
 }
 
-.contact-card__title{
+.contact-card__title {
   height: 100%;
   display: flex;
   font-size: $header-size;
   font-family: $title-font;
+  font-weight: $title-weight;
   color: white;
   margin-bottom: 7%;
 }
@@ -42,12 +43,14 @@
   margin-left: 3%;
   font-size: $text-size;
   font-family: $title-font;
+  font-weight: $subtitle-weight;
 
 }
+
 .contact-card__content {
   display: flex;
   flex-direction: column;
-  width:50%;
+  width: 50%;
   align-self: center;
   height: 100%;
   // margin-left: 5%;

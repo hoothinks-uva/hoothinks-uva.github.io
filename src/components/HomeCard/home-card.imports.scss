@@ -11,17 +11,19 @@
   padding-bottom: 20%;
   padding-right: 10%;
   padding-left: 10%;
+
   @media screen and (min-width: 768px) {
     height: 100vh;
   }
 }
 
-.home-card__container{
+.home-card__container {
   flex-direction: row;
   margin-right: 10%;
   margin-left: 10%;
   display: flex;
   flex: 1;
+
   // height: 100%;
   @media screen and (max-width: 768px) {
     display: block;
@@ -91,6 +93,7 @@
   display: flex;
   font-size: $title-size;
   font-family: $title-font;
+  font-weight: $title-weight;
   color: #333;
   margin-bottom: 20px;
 }
@@ -101,6 +104,7 @@
   line-height: 220%;
   font-size: $text-size;
   font-family: $body-font;
+  font-weight: $text-weight;
   word-wrap: break-word;
 }
 

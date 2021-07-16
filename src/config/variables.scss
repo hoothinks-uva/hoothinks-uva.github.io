@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 // fonts
-$body-font: 'Raleway', sans-serif;
-$nav-font: 'Montserrat', sans-serif;
-$title-font: 'Open Sans', sans-serif;
+$body-font: 'Roboto Slab',
+serif;
+$nav-font: 'Roboto Slab',
+serif;
+$title-font: 'Roboto Slab',
+serif;
 
 $header-size: 50px;
 $title-size: 35px;
 $subtitle-size: 28px;
 $text-size: 16px;
+
+
+$header-weight:500;
+$title-weight: 400;
+$subtitle-weight: 300;
+$text-weight:300;
 
 // colors
 $uva-orange: #E57200;

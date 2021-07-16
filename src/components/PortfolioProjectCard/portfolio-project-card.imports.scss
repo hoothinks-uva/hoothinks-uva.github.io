@@ -100,6 +100,7 @@
   display: flex;
   font-size: $title-size;
   font-family: $title-font;
+  font-weight: $title-weight;
   color: #333;
   margin-bottom: 20px;
 }
@@ -109,6 +110,16 @@
   line-height: 220%;
   font-size: $text-size;
   font-family: $body-font;
+  font-weight: $text-weight;
+  word-wrap: break-word;
+}
+
+.portfolio-project-card__subtitle {
+  color: #333333;
+  line-height: 220%;
+  font-size: $text-size;
+  font-family: $body-font;
+  font-weight: $title-weight;
   word-wrap: break-word;
 }
 

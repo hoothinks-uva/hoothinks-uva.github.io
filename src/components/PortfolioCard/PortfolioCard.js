@@ -12,7 +12,7 @@ const PortfolioCard = () => {
                     </div>
                     <div style={{ marginBottom: "5%" }}>
                         <p className="portfolio-card__text">
-                            <text style={{ fontWeight: "bolder" }}>
+                            <text>
                                 Check out some of our work!
                             </text>
                         </p>

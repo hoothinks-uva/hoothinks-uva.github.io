@@ -10,31 +10,34 @@
   background-image: url(../assets/images/banner.png);
   background-size: cover;
   background-repeat: no-repeat;
+
   @media screen and (min-width: 768px) {
     height: 100vh;
   }
 }
 
-.banner-nav-text{
-  display:flex;
+.banner-nav-text {
+  display: flex;
   height: 100%;
   flex-direction: column;
   justify-content: space-around;
 }
-.banner-nav{
-  height:fit-content;
+
+.banner-nav {
+  height: fit-content;
   width: 60%;
   display: flex;
   margin-left: 40%;
   margin-top: 4%;
 }
-.banner-container{
+
+.banner-container {
   flex-direction: column;
   display: flex;
   height: 100%;
 }
 
-.banner-text{
+.banner-text {
   width: 100%;
   height: 100%;
   display: flex;
@@ -47,16 +50,19 @@
   display: flex;
   font-size: 60px;
   font-family: $title-font;
+  font-weight: $title-weight;
   color: white;
   margin-bottom: 1%;
   margin-left: 50%;
 
 }
-.banner-subtitle{
+
+.banner-subtitle {
   display: flex;
   margin-left: 50%;
   width: 40%;
   font-size: 20px;
   font-family: $title-font;
+  font-weight: $subtitle-weight;
   color: white;
 }

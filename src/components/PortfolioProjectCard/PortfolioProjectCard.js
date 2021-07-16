@@ -18,13 +18,18 @@ const PortfolioProjectCard = ({ graphic, title, description, impact, skills, lin
             <p className="portfolio-project-card__text">{description}</p>
             <br></br>
             <p className="portfolio-project-card__text">
-                Project Impact:
+                <p className="portfolio-project-card__subtitle">
+                    Project Impact
+                </p>
                 <ul style={{ marginLeft: "1%", marginBottom: "3%" }}>
                     {impactList}
                 </ul>
             </p>
             <p className="portfolio-project-card__text">
-                Skills and techniques: {skillsList}
+                <p className="portfolio-project-card__subtitle">
+                    Skills and techniques
+                </p>
+                {skillsList}
             </p>
 
         </div>

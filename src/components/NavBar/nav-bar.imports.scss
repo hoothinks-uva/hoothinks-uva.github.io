@@ -3,7 +3,7 @@
 }
 
 .nav-bar {
-  font-family: 'Open Sans';
+  font-family: $title-font;
   display: flex;
   flex-direction: row;
   height: 100%;
@@ -24,7 +24,8 @@
   align-items: center;
   height: max-content;
   justify-content: center;
-  font-family: 'Open Sans';
+  font-family: $title-font;
+  font-weight: $text-weight;
 }
 
 .nav-bar__container:hover {
