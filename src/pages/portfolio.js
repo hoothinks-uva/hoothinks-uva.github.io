@@ -18,12 +18,12 @@ const portfolio = () => (
   <div>
     <div style={{ position: "fixed", width: "100%", zIndex: "100", marginBottom: "5%" }}>
       <div className={"serviceinfo-banner"} style={{ borderBottom: "1px solid #e8e8e8" }}>
-        <div className={"serviceinfo-banner"}>
-          <Link to="/" class="home-button"></Link>
+        <Link to="/" className={"serviceinfo-banner"}>
+          <img class="home-button"></img>
           <div className="serviceinfo-card__header">
-            Portfolio
-        </div>
-        </div>
+            Hoothinks
+           </div>
+        </Link>
         <div className={"serviceinfo-nav"}>
           <NavBar color="rgb(28, 77, 105)"></NavBar>
         </div>
