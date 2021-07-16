@@ -27,7 +27,7 @@ const PortfolioProjectCard = ({ graphic, title, description, impact, skills, lin
             </p>
             <p className="portfolio-project-card__text">
                 <p className="portfolio-project-card__subtitle">
-                    Skills and techniques
+                    Skills and Techniques
                 </p>
                 {skillsList}
             </p>

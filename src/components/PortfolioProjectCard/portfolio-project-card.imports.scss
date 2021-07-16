@@ -140,10 +140,13 @@
   display: inline-block;
   padding: 0.3em 1em;
   text-decoration: none;
-  color: #67c5ff;
-  border: solid 1px #67c5ff;
+  color: rgb(28, 77, 105);
+  border: solid 1px rgb(28, 77, 105);
   background: white;
   border-radius: 6px;
   transition: .4s;
-  margin-right: 10px;
+  margin-right: 12px;
+  font-size: 13px;
+  font-family: $body-font;
+  font-weight: $title-weight;
 }
