@@ -20,13 +20,13 @@ const ContactCard = () => {
                 <div className="contact-card__info">
                     <img className="contact-card__icon" src={phone} ></img>
                     <div class="contact-card__info-text">
-                        703-753-1234
+                        5713796359
                 </div>
                 </div>
                 <div className="contact-card__info">
                     <img className="contact-card__icon" src={email} ></img>
                     <div class="contact-card__info-text">
-                        HT@gmail.com
+                        dkf5gz@virginia.edu
                 </div>
                 </div>
             </div>
