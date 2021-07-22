@@ -1,5 +1,4 @@
 import React from 'react'
-import scrollToComponent from 'react-scroll-to-component';
 import Link from "gatsby-link"
 
 const NavBar = ({ color }) => {

@@ -20,7 +20,7 @@ const ContactCard = () => {
                 <div className="contact-card__info">
                     <img className="contact-card__icon" src={phone} ></img>
                     <div class="contact-card__info-text">
-                        5713796359
+                        571-379-6359
                 </div>
                 </div>
                 <div className="contact-card__info">
