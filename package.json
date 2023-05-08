@@ -20,7 +20,7 @@
     "bootstrap": "^5.0.2",
     "css-loader": "^3.4.2",
     "framer-motion": "^1.11.0",
-    "gatsby": "^2.19.7",
+    "gatsby": "^5.9.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-sass": "^2.1.29",
     "imports-loader": "^0.8.0",
